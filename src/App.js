@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "./components/Header";
+import SwipeButtons from "./components/SwipeButtons.js";
+import TinderCards from "./components/TinderCards";
 
 const npm = () => {
   return (
     <div className="app">
-      <h1>Lets build te Mern Tinder Clone</h1>
-
       {/*Header Tinder */}
       <Header />
       {/*Tinder Cards */}
+      <TinderCards />
       {/*swipe Btns */}
+      <SwipeButtons />
     </div>
   );
 };
